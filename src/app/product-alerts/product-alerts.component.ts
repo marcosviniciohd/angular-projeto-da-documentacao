@@ -12,4 +12,9 @@ export class ProductAlertsComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
+
+  notify(){
+    window.alert('Produto acima de 700 reais');
+  }
+  
 }
